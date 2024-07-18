@@ -1,0 +1,13 @@
+qdrant-client
+tqdm
+torch
+h5py
+streamlit
+ipython
+pandas
+scikit-learn
+llama-index
+heapq_max
+llama-index-embeddings-huggingface
+langchain_community
+einops
