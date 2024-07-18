@@ -67,20 +67,7 @@ LocalPubMed-RAGto Riches is a solution that integrates PubMed’s vast database 
 
 3. **Running Queries**:
     - Use Langchain to integrate the model with the RAG pipeline.
-    - Example query script:
-        ```python
-        from langchain import Langchain
-        from qdrant_client import QdrantClient
-
-        # Initialize Langchain and QdrantClient
-        langchain = Langchain(model='bio-mistral-instruct-7b')
-        qdrant_client = QdrantClient()
-
-        # Run a sample query
-        query = "What are the possible complications associated with type 1 diabetes and how does it impact the eyes?"
-        response = langchain.query(query, qdrant_client)
-        print(response)
-        ```
+  
 
 ## Evaluation
 
